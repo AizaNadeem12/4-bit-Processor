@@ -11,49 +11,23 @@ Operation Code	      4-bit register operand 1(R1)           4-bit register opera
 The following operations are performed by the processor.
 
 
-Operation Code	
-Operation Performed	
-Description
+Operation Code	        Operation Performed	          Description
 
-000	
-R1 = A	
-Load the contents of input A in to the register operand 1.
+000	                   R1 = A	                       Load the contents of input A in to the register operand 1.
 
-001	
-R1 = R2	
-Move the contents of register operand 2 in to register operand 1.
+001	                   R1 = R2	                      Move the contents of register operand 2 in to register operand 1.
 
-010	
-R1 = R1 + R2	
-Add the contents of register operand 1 and register operand 2 and load in register operand 1.
+010                    R1 = R1 + R2	                 Add the contents of register operand 1 and register operand 2 and load in register operand 1.
 
-011	
-R1 = R1 - R2	
-Subtract the contents of register operand 2 from register operand 1 and load in register operand 1.
+011	                    R1 = R1 - R2	                Subtract the contents of register operand 2 from register operand 1 and load in register operand 1.
  
+100	                    R1 = R1 * R2	                Multiply the contents of register operand 1 and register operand 2 and load in register operand 1 and 2. (As the result is of 8 bits)
 
-100	
-R1 = R1 * R2	
-Multiply the contents of register operand 1 and register operand 2 and load in register operand 1 and 2. (As the result is of 8 bits)
+101	                   R1 = R1/2i	                    Divide the register contents of register operand 1 with 2i (i is an input) and load the result in register operand 1.
 
-101	
-R1 = R1/2i	
-Divide the register contents of register operand 1 with 2i (i is an input) and load the result in register operand 1.
+110	                    R1 = R1*2I	                   Multiply the register contents of register operand 1 with 2i (i is an input) and load the result in register operand 1.
 
-110	
-R1 = R1*2I	
-Multiply the register contents of register operand 1 with 2i (i is an input) and load the result in register operand 1.
-
-111	
-R1 = R1 + R2	
-Logical OR the contents of register operand 1 and register operand 2 and load in register operand 1.
-
-
-
-
-
-
-
+111	                     R1 = R1 + R2	                Logical OR the contents of register operand 1 and register operand 2 and load in register operand 1.
 
 Inputs:
 
