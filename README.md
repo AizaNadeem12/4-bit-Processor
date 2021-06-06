@@ -1,5 +1,5 @@
 # 4-bit-Processor
-Digital Logic Design Project
+Digital Logic Design Project 1
 
 This project is implemented in LogicWorks. It is a 4-bit processor which consists of 4 data registers each of 4 bits and an instruction register (IR) of 7 bits. The first 3 bits of the instruction tells which operation is to be performed, the next 2 bits signifies the first register and the last two bits signifies the second register.
 
